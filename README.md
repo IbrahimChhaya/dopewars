@@ -1,26 +1,26 @@
-Java Tradewars
+Java TradeWars
 =============
 
-Java Tradewars is a generic dopewars-like engine that can be easily re-themed. There is no XML (thank god) to configure, just straight java. This project is themed
+Java TradeWars is a generic dopewars-like engine that can be easily re-themed. There is no XML (thank god) to configure, just straight java. This project is themed
 to dopewars as an homage to one of my favorite oldschool games :)
 
-I tried to keep the tradewars package outside of swing where I could, so it can be easily adapted to a console game if you wanted. 
+I tried to keep the TradeWars package outside of swing where I could, so it can be easily adapted to a console game if you wanted. 
 
 Screenshots
 -----------
 
-![Tradewars](http://0rcus.com/i/tradewars/tradewars-1.png "TradeWars")
+![TradeWars](http://0rcus.com/i/TradeWars/TradeWars-1.png "TradeWars")
 
-![Tradewars Event](http://0rcus.com/i/tradewars/tradewars-4.png "TradeWars - Event")
+![TradeWars Event](http://0rcus.com/i/TradeWars/TradeWars-4.png "TradeWars - Event")
 
-![Tradewars Fight](http://0rcus.com/i/tradewars/tradewars-2.png "TradeWars - Fight!")
+![TradeWars Fight](http://0rcus.com/i/TradeWars/TradeWars-2.png "TradeWars - Fight!")
 
-![Tradewars Trade](http://0rcus.com/i/tradewars/tradewars-3.png "TradeWars - Trade")
+![TradeWars Trade](http://0rcus.com/i/TradeWars/TradeWars-3.png "TradeWars - Trade")
 
 Customization
 -------------
 
-Customizing this game is done in the `tradewars.Game` file. Here is the general list of things to customize:
+Customizing this game is done in the `TradeWars.Game` file. Here is the general list of things to customize:
 
 * Events: these are things that happen while moving around
   * Finding cash/stuff on the ground
@@ -93,4 +93,4 @@ Events are a bit trickier since they can encompass so many different things. A g
 
 
 To trigger an event the `inEvent()` method should return true. there is a `hit` helper to assist with this -- pass in a number and it will match a random number against
-it. For examples of events, check the `tradewars.events` package.
+it. For examples of events, check the `TradeWars.events` package.
